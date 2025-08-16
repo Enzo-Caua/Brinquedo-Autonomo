@@ -1,0 +1,43 @@
+module display_contagem_acao(seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g, b3, b2, b1, b0, clk_aux);
+  input b3, b2, b1, b0, clk_aux;
+  output seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g;
+
+  wire Nb_3, Nb_2, Nb_1, Nb_0, Nclk;
+  not Not_b3(Nb_3, b3);
+  not Not_b2(Nb_2, b2);
+  not Not_b1(Nb_1, b1);
+  not Not_b0(Nb_0, b0);
+  not Not_clk(Nclk, clk_aux);
+
+  wire T_seg_a0, T_seg_a1, T_seg_a3;
+  and And_a0(T_seg_a0, b2, Nb_0);
+  and And_a1(T_seg_a1, Nb_2, Nb_1, b0);
+  or Or_a0(T_seg_a3, T_seg_a1, T_seg_a0);
+  and And_a2(seg_a, T_seg_a3, Nclk);
+  
+  wire T_seg_b0;
+  and And_b0(T_seg_b0, b2, b0);
+  and And_b1(seg_b, T_seg_b0, Nclk);
+
+  wire T_seg_c0;
+  and And_c0(T_seg_c0, b1, Nb_0);
+  and And_c1(seg_c, T_seg_c0, Nclk);
+  
+  wire T_seg_d0;
+  or Or_d0(T_seg_d0, T_seg_a1, T_seg_a0);
+  and And_d0(seg_d, T_seg_d0, Nclk);
+
+  wire T_seg_e0;
+  or Or_e0(T_seg_e0, b2, b0);
+  and And_e0(seg_e, T_seg_e0, Nclk);
+
+  wire T_seg_f0, T_seg_f1;
+  and And_f0(T_seg_f0, Nb_2, b0);
+  or Or_f0(T_seg_f1, T_seg_f0, b1);
+  and And_f1(seg_f, T_seg_f1, Nclk);
+
+  wire T_seg_g;
+  and And_g0(T_seg_g, Nb_2, Nb_1);
+  and And_g1(seg_g, T_seg_g, Nclk);
+	
+endmodule

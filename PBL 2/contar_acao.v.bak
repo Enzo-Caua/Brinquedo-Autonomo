@@ -1,0 +1,3 @@
+module contar_acao(reset, a2, a0);
+	and And_reset(reset, a2, a0);
+endmodule

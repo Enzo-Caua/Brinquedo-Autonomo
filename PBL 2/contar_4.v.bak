@@ -1,0 +1,9 @@
+module contar_4(reset_4, chave_0, chave_1, b2, b0);
+	input chave_0, chave_1, b2, b0;
+	output reset_4;
+	
+	wire T_chave_1;
+	not Not_chave_0(T_chave_1, chave_1);
+	
+	and And_contar_4(reset_4, chave_0, T_chave_1, b1, b0);
+endmodule

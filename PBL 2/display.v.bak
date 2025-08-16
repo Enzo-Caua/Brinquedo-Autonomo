@@ -1,0 +1,17 @@
+module display(seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g, b3, b2, b1, b0);
+	input b3, b2, b1, b0;
+	output seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g;
+	
+	wire Nb_3, Nb_2, Nb_1, Nb_0;
+	not Not_b3(Nb_3, b3);
+	not Not_b2(Nb_2, b2);
+	not Not_b1(Nb_1, b1);
+	not Not_b0(Nb_0, b0);
+	
+	wire T_seg_a0, T_seg_a1;
+	and And_0(T_seg_a0, b2, Nb_1, Nb_0);
+	and And_1(T_seg_a1, Nb_3, Nb_2, Nb_1, b0);
+	
+	or Or_0(seg_a, T_seg_a1, T_seg_a0);
+
+endmodule

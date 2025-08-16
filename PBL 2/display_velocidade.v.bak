@@ -1,0 +1,17 @@
+module display_velocidade(seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g, chave_0, chave_1, clk_aux);
+
+	input chave_0, chave_1, clk_aux;
+	output seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g;
+	
+	wire Nchave_0, Nchave_1;
+	not Not_chave_0(Nchave_0, chave_0);
+	not Not_chave_1(Nchave_1, chave_1);
+	
+	and And_a(seg_a, chave_1, Nchave_0, clk_aux);
+  	and And_b(seg_b, 1'b0, clk_aux);
+  	and And_c(seg_c, Nchave_1, chave_0, clk_aux);
+	and And_d(seg_d, chave_1, Nchave_0, clk_aux);
+	and And_e(seg_e, chave_1, Nchave_0, clk_aux);
+	and And_f(seg_f, Nchave_1, chave_0, clk_aux);
+	and And_f(seg_g, Nchave_1, Nchave_0, clk_aux);
+endmodule

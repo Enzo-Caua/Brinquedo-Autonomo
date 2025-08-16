@@ -1,0 +1,14 @@
+module mux_display(seg_x, Tseg_x, Vseg_x, clk_aux);
+	input Tseg_x, Vseg_x, clk_aux;
+	output seg_x;
+	
+	wire Nclk;
+	not Not_clk(Nclk, clk_aux);
+	
+	wire T0, T1, T2;
+	nand Nand_0(T0, clk_aux, clk_aux);
+	nand Nand_1(T1, T0, Tseg_x);
+	nand Nand_2(T2, clk_aux, Vseg_x);
+	nand Nand_3(seg_x, T2, T1);
+
+endmodule

@@ -1,0 +1,10 @@
+module cadeamento(b3, b2, b1, b0, reset, clk);
+	input reset, clk;
+	output b3, b2, b1, b0;
+	
+	flip_flop_d(b0, !b0, reset, t1);
+	flip_flop_d(b1, !b1, reset, b0);
+	flip_flop_d(b2, !b2, reset, b1);
+	flip_flop_d(b3, !b3, reset, b2);
+
+endmodule

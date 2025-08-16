@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/contar_2.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/contar_4.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/contar_8.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/mux.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/display.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/flip_flop_d.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/cadeamento.v}
+vlog -vlog01compat -work work +incdir+/home/pedro/PBL {/home/pedro/PBL/contador.v}
+

@@ -1,0 +1,701 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit1|q'
+Slack : -1.514
+TNS   : -1.514
+
+Type  : Setup 'botao_velocidade:comb_4|flip_flop_d:comb_8|q'
+Slack : -1.506
+TNS   : -1.506
+
+Type  : Setup 'cadeamento:contador|flip_flop_d:bit2|q'
+Slack : -1.490
+TNS   : -1.490
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div14|q'
+Slack : -1.471
+TNS   : -1.471
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div11|q'
+Slack : 0.466
+TNS   : 0.000
+
+Type  : Setup 'cadeamento:contador|flip_flop_d:bit1|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div13|q'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div9|q'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b1|q'
+Slack : 0.538
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b1|q'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Setup 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit0|q'
+Slack : 0.553
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b1|q'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b1|q'
+Slack : 0.567
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b1|q'
+Slack : 0.591
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b2|q'
+Slack : 0.597
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b1|q'
+Slack : 0.790
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div12|q'
+Slack : 0.825
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b0|q'
+Slack : 0.832
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b0|q'
+Slack : 0.835
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b0|q'
+Slack : 0.836
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b0|q'
+Slack : 0.840
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b0|q'
+Slack : 0.840
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b0|q'
+Slack : 0.855
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b1|q'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b0|q'
+Slack : 0.868
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b2|q'
+Slack : 0.999
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b2|q'
+Slack : 1.013
+TNS   : 0.000
+
+Type  : Setup 'botao_velocidade:comb_4|flip_flop_d:comb_3|q'
+Slack : 1.121
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b0|q'
+Slack : 1.122
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b2|q'
+Slack : 1.229
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b2|q'
+Slack : 1.291
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b2|q'
+Slack : 1.353
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b1|q'
+Slack : 1.516
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b2|q'
+Slack : 1.654
+TNS   : 0.000
+
+Type  : Setup 'cadeamento:contador|flip_flop_d:bit0|q'
+Slack : 1.674
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b2|q'
+Slack : 1.678
+TNS   : 0.000
+
+Type  : Setup 'divisor_frequencia:comb_3|flip_flop_d:div10|q'
+Slack : 2.577
+TNS   : 0.000
+
+Type  : Setup 'clk_input'
+Slack : 4.261
+TNS   : 0.000
+
+Type  : Hold 'cadeamento:contador|flip_flop_d:bit1|q'
+Slack : -4.447
+TNS   : -4.968
+
+Type  : Hold 'clk_input'
+Slack : -4.315
+TNS   : -4.315
+
+Type  : Hold 'cadeamento:contador|flip_flop_d:bit2|q'
+Slack : -4.124
+TNS   : -4.124
+
+Type  : Hold 'botao_velocidade:comb_4|flip_flop_d:comb_8|q'
+Slack : -3.317
+TNS   : -5.070
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div10|q'
+Slack : -2.771
+TNS   : -5.402
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b2|q'
+Slack : -1.732
+TNS   : -1.732
+
+Type  : Hold 'cadeamento:contador|flip_flop_d:bit0|q'
+Slack : -1.728
+TNS   : -1.728
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b2|q'
+Slack : -1.708
+TNS   : -1.708
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b1|q'
+Slack : -1.570
+TNS   : -1.570
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b2|q'
+Slack : -1.407
+TNS   : -1.407
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b2|q'
+Slack : -1.345
+TNS   : -1.345
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b2|q'
+Slack : -1.283
+TNS   : -1.283
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b0|q'
+Slack : -1.176
+TNS   : -1.176
+
+Type  : Hold 'botao_velocidade:comb_4|flip_flop_d:comb_3|q'
+Slack : -1.175
+TNS   : -1.175
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b2|q'
+Slack : -1.067
+TNS   : -1.067
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b2|q'
+Slack : -1.053
+TNS   : -1.053
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b0|q'
+Slack : -0.922
+TNS   : -0.922
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b1|q'
+Slack : -0.911
+TNS   : -0.911
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b0|q'
+Slack : -0.909
+TNS   : -0.909
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b0|q'
+Slack : -0.894
+TNS   : -0.894
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b0|q'
+Slack : -0.894
+TNS   : -0.894
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b0|q'
+Slack : -0.890
+TNS   : -0.890
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b0|q'
+Slack : -0.889
+TNS   : -0.889
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b0|q'
+Slack : -0.886
+TNS   : -0.886
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div12|q'
+Slack : -0.879
+TNS   : -0.879
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b1|q'
+Slack : -0.844
+TNS   : -0.844
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b2|q'
+Slack : -0.651
+TNS   : -0.651
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b1|q'
+Slack : -0.645
+TNS   : -0.645
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b1|q'
+Slack : -0.621
+TNS   : -0.621
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b1|q'
+Slack : -0.615
+TNS   : -0.615
+
+Type  : Hold 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit0|q'
+Slack : -0.607
+TNS   : -0.607
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b1|q'
+Slack : -0.601
+TNS   : -0.601
+
+Type  : Hold 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b1|q'
+Slack : -0.592
+TNS   : -0.592
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div9|q'
+Slack : -0.541
+TNS   : -0.541
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div13|q'
+Slack : -0.521
+TNS   : -0.521
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div11|q'
+Slack : -0.520
+TNS   : -0.520
+
+Type  : Hold 'divisor_frequencia:comb_3|flip_flop_d:div14|q'
+Slack : 1.917
+TNS   : 0.000
+
+Type  : Hold 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit1|q'
+Slack : 1.960
+TNS   : 0.000
+
+Type  : Recovery 'cadeamento:contador|flip_flop_d:bit1|q'
+Slack : -9.288
+TNS   : -12.857
+
+Type  : Recovery 'cadeamento:contador|flip_flop_d:bit2|q'
+Slack : -8.862
+TNS   : -12.754
+
+Type  : Recovery 'botao_velocidade:comb_4|flip_flop_d:comb_8|q'
+Slack : -8.457
+TNS   : -13.156
+
+Type  : Recovery 'cadeamento:contador|flip_flop_d:bit0|q'
+Slack : -8.062
+TNS   : -8.062
+
+Type  : Recovery 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit1|q'
+Slack : -7.265
+TNS   : -7.265
+
+Type  : Recovery 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit0|q'
+Slack : -6.920
+TNS   : -6.920
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b2|q'
+Slack : -4.681
+TNS   : -4.681
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b0|q'
+Slack : -4.092
+TNS   : -4.092
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b1|q'
+Slack : -4.068
+TNS   : -4.068
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b0|q'
+Slack : -3.579
+TNS   : -3.579
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b1|q'
+Slack : -3.445
+TNS   : -3.445
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b0|q'
+Slack : -1.599
+TNS   : -1.599
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b0|q'
+Slack : -1.595
+TNS   : -1.595
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b0|q'
+Slack : -1.595
+TNS   : -1.595
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b0|q'
+Slack : -1.585
+TNS   : -1.585
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b0|q'
+Slack : -1.574
+TNS   : -1.574
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b0|q'
+Slack : -1.544
+TNS   : -1.544
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b2|q'
+Slack : -1.288
+TNS   : -1.288
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b2|q'
+Slack : -1.237
+TNS   : -1.237
+
+Type  : Recovery 'clk_input'
+Slack : -1.231
+TNS   : -1.231
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b1|q'
+Slack : -1.224
+TNS   : -1.224
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b1|q'
+Slack : -1.205
+TNS   : -1.205
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b1|q'
+Slack : -1.200
+TNS   : -1.200
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b1|q'
+Slack : -1.185
+TNS   : -1.185
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b1|q'
+Slack : -1.177
+TNS   : -1.177
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b2|q'
+Slack : -1.170
+TNS   : -1.170
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b1|q'
+Slack : -1.150
+TNS   : -1.150
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b2|q'
+Slack : -0.958
+TNS   : -0.958
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b2|q'
+Slack : -0.535
+TNS   : -0.535
+
+Type  : Recovery 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b2|q'
+Slack : -0.276
+TNS   : -0.276
+
+Type  : Removal 'cadeamento:contador|flip_flop_d:bit1|q'
+Slack : -1.693
+TNS   : -1.693
+
+Type  : Removal 'cadeamento:contador|flip_flop_d:bit2|q'
+Slack : -1.370
+TNS   : -1.370
+
+Type  : Removal 'botao_velocidade:comb_4|flip_flop_d:comb_8|q'
+Slack : -0.563
+TNS   : -0.563
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b2|q'
+Slack : -0.158
+TNS   : -0.158
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b2|q'
+Slack : 0.101
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b2|q'
+Slack : 0.523
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b1|q'
+Slack : 0.716
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b1|q'
+Slack : 0.751
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b1|q'
+Slack : 0.765
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b1|q'
+Slack : 0.765
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b2|q'
+Slack : 0.788
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b1|q'
+Slack : 0.821
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b1|q'
+Slack : 0.823
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b2|q'
+Slack : 0.834
+TNS   : 0.000
+
+Type  : Removal 'clk_input'
+Slack : 0.836
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b2|q'
+Slack : 0.876
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b0|q'
+Slack : 1.140
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b0|q'
+Slack : 1.151
+TNS   : 0.000
+
+Type  : Removal 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit0|q'
+Slack : 1.158
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b0|q'
+Slack : 1.162
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b0|q'
+Slack : 1.164
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b0|q'
+Slack : 1.183
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b0|q'
+Slack : 1.192
+TNS   : 0.000
+
+Type  : Removal 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit1|q'
+Slack : 1.503
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b1|q'
+Slack : 2.979
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b0|q'
+Slack : 3.113
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b1|q'
+Slack : 3.673
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b0|q'
+Slack : 3.697
+TNS   : 0.000
+
+Type  : Removal 'cadeamento:contador|flip_flop_d:bit0|q'
+Slack : 3.815
+TNS   : 0.000
+
+Type  : Removal 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b2|q'
+Slack : 4.215
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk_input'
+Slack : -2.289
+TNS   : -2.289
+
+Type  : Minimum Pulse Width 'botao_velocidade:comb_4|flip_flop_d:comb_3|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'botao_velocidade:comb_4|flip_flop_d:comb_8|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cadeamento:cadeamento_contagem_acao|flip_flop_d:bit1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cadeamento:contador|flip_flop_d:bit0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cadeamento:contador|flip_flop_d:bit1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'cadeamento:contador|flip_flop_d:bit2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div1|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div2|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div3|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div4|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div5|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div6|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div7|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b0|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b1|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|dividir_5:div8|flip_flop_d:b2|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div10|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div11|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div12|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div13|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div14|q'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'divisor_frequencia:comb_3|flip_flop_d:div9|q'
+Slack : 0.234
+TNS   : 0.000
+
+------------------------------------------------------------

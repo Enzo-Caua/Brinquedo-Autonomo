@@ -1,0 +1,6 @@
+module contar_8(reset_4, chave_0, chave_1, b3);
+	input chave_0, chave_1, b3;
+	output reset_8;
+	
+	and And_contar_8(reset_8, chave_0, chave_1, b3);
+endmodule

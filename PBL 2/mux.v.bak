@@ -1,0 +1,12 @@
+module mux(reset, chave_0, chave_1, b3, b2, b1, b0);
+	input chave_0, chave_1, b3, b2, b1, b0;
+	output reset;
+
+	wire reset_2, reset_4, reset_8;
+	
+	contar_2(reset_2, chave_0, chave_1, b1, b0);
+	contar_4(reset_4, chave_0, chave_1, b2, b0);
+	contar_8(reset_8, chave_0, chave_1, b3);
+	
+	or Or_reset(reset, reset_2, reset_4, reset_8);
+endmodule

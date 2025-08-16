@@ -1,0 +1,34 @@
+module contador(b3, b2, b1, b0, reset, clk, chave_0, chave_1);
+    input chave_0, chave_1, clk;
+    output b3, b2, b1, b0, reset;
+    
+    wire T0, T1;
+
+    // Porta OR entre chave_0 e chave_1
+    or Or_0(T0, chave_0, chave_1);
+
+    // Porta AND entre T0 e clk
+    and And_0(T1, T0, clk);
+    
+    // Instanciação do módulo 'cadeamento'
+    cadeamento cadeamento_inst (
+        .b3(b3),
+        .b2(b2),
+        .b1(b1),
+        .b0(b0),
+        .reset(reset),
+        .clk(T1)
+    );
+
+    // Instanciação do módulo 'mux'
+    mux mux_inst (
+        .reset(reset),
+        .chave_0(chave_0),
+        .chave_1(chave_1),
+        .b3(b3),
+        .b2(b2),
+        .b1(b1),
+        .b0(b0)
+    );
+
+endmodule
